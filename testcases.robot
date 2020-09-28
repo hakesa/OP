@@ -11,10 +11,8 @@ Login and logout
 #Ajokomennot
 
 #Ajaa kaikki:
-#robot testcases.robot
-#robot -v ENV:Production -v BROWSER:chrome -v USERNAME:78541833 testcases.robot
+#robot --outputdir C:\Users\esaha\Desktop\lokit testcases.robot
+#robot --outputdir C:\Users\esaha\Desktop\lokit -v ENV:Production -v BROWSER:chrome -v USERNAME:78541833 testcases.robot
 
 #Ajaa yhden testin:
-#robot -v ENV:Production -v BROWSER:chrome -v USERNAME:78541833 -t "Login and logout" testcases.robot
-#lisää kommenttia
-#vielä yksi
+#robot --outputdir C:\Users\esaha\Desktop\lokit -v ENV:Production -v BROWSER:chrome -v USERNAME:78541833 -t "Login and logout" testcases.robot
