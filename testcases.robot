@@ -8,11 +8,11 @@ Login and logout
 	Login to OP     fi
     #Logout from OP
 
-Ajokomennot
+#Ajokomennot
 
-Ajaa kaikki:
-robot tests.robot
-robot -v ENV:Production -v BROWSER:chrome -v USERNAME:78541833 tests.robot
+#Ajaa kaikki:
+#robot testcases.robot
+#robot -v ENV:Production -v BROWSER:chrome -v USERNAME:78541833 testcases.robot
 
-Ajaa yhden testin:
-robot -v ENV:Production -v BROWSER:chrome -v USERNAME:78541833 -t "Login and logout" tests.robot
+#Ajaa yhden testin:
+#robot -v ENV:Production -v BROWSER:chrome -v USERNAME:78541833 -t "Login and logout" testcases.robot
