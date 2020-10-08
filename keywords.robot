@@ -6,6 +6,8 @@ Library     Collections
 Library     SeleniumLibrary
 
 *** Keywords ***
+Avaa sivu
+    Open browser and go to      https://www.google.fi    Chrome
 
 Login to OP
     [Arguments]    ${language}   ${browser}=${BROWSER}  ${username}=${USERNAME}    ${password}=1234     ${PIN}=1234
