@@ -3,5 +3,5 @@ ${URL_PROD}     https://online.s-pankki.fi
 ${log_test}     Yes    # Put 'Yes', if you want to log the test steps
 
 ${BROWSER}      Chrome  #Lisätty ite, koska ei tullut ajokomennosta
-${USERNAME}     12345    #Lisätty ite, koska ei tullut ajoke
+${USERNAME}     123456    #Lisätty ite, koska ei tullut ajoke
 ${ENV}          Production  #Lisätty ite, koska ei tullut ajoke
